@@ -10,4 +10,7 @@ presentation given in Austin, TX 20230920.
 
 The original presentation is [here](docs/The-Keras-Philosophy.pptx)
 
+The example from Keras wiki is [here](https://keras.io/examples/vision/nerf/)
+
+
 
