@@ -2,7 +2,7 @@
 # JFD MODS
 .DS_STORE
 src/myenv
-
+logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
