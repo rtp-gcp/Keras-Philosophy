@@ -28,7 +28,7 @@ The notebooks are separated into two components:
                 * reads a csv file and writes augmented data (additional slightly modified data) to train,test, and valid csv files using pandas for the simple model dtv1.
             * simple clean data
             * water clean data
-                * uses `data\usgs_gsvb_v2.csv` as data input and writes train, test, valid
+                * uses `data\usgs_gsvb_v2.csv` as data input and writes train, test, valid 
     * notebooks for using data to do model experiments
         * simple model dtv1
             * does a regressor to model X + Y = Z using a Keras/TensorFlow DNN
