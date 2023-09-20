@@ -19,6 +19,7 @@ have them run in Google Collab, Vertex AI, AWS and IBM cloud environments.
 
 
 The notebooks are separated into two components:
+
     * notebooks for generating data
         * Generally they read from an input csv file and write to csv files in the same location
         * Reads from `data/xxx.csv`` and writes to `[data/train|test|valid].csv`
