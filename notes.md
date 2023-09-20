@@ -27,3 +27,6 @@ Some of this came from a hackathon repo I did previously.
 
 
 
+## URLS
+
+* [keras underfitting and overfitting](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit)
