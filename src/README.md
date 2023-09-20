@@ -7,6 +7,10 @@
 
 ## create a python environment or activate one
 
+This workflow regarding creating a venv with the terminal seems 
+broken in terms of visual code.  It will pip install twice.  I suspect
+the one created with vscode is in `~/.vscode` or `~/.code.`  TODO: resolve
+
 
 ### create
 
@@ -18,6 +22,7 @@ Use the python moduloe to create a venv (virtual environment) named `myenv`.
 This creates a dir named `myenv.` Make sure you add this dir to your `.gitignore`
 
 ```
+$ cd src
 $ python3 -m venv myenv
 $ source myenv/bin/activate
 ```
