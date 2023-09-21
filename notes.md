@@ -42,6 +42,11 @@ There are 5 epochs used to train the model. ie. 5 iterations of training.
 
 
 
+# regarding the -1
+
+The -1 reduces the axis by one.  Since the vector is 1D, this reduces the result to a scalar, ie a tensor
+of 0D.
+
 ## Hi-lites on orig repo
 
 Some of this came from a hackathon repo I did previously.
