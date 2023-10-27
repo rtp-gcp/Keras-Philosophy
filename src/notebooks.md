@@ -7,3 +7,11 @@ about it at the 2023 IBM TechXchang conference.
 ```
 @hidden_cell
 ```
+
+# Hiding output
+
+This will hide a cells output. Particulary good for `pip install` cells.
+
+```
+@collapse
+```
