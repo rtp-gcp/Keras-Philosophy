@@ -1,5 +1,8 @@
 # Github CodeSpaces Setup
 
+
+One concise document to setup vscode in a github codespace.
+
 ##  github codespaces setup
 
 These are notes on how to setup a vs code installation using github codespaces for use with 
@@ -25,9 +28,10 @@ jupyter/inotebooks
         - For now, there is just one requirements.txt and its above this dir
     9. `python install -r requirements.txt`
         - this installs the common identified modules for the notebooks in this venv
-    7. `add .gitignore for nbenv`
-        - this is so that git does not try to CM your modules
+    7. add `.gitignore` for `nbenv` and for `.env`
+        - this is so that git does not try to CM your modules nor your api keys in `.env`
         - `echo nbenv/nbenv/ >> .gitignore`
+        - `echo .env >> .gitignore`
 4. Install jupyter notebooks in vscode
     1. click extensions in left sidebar
     2. type jupyter<CR>
@@ -35,14 +39,14 @@ jupyter/inotebooks
 5. Setup python inpreter for the VS Code workspace
     1. cmd shift p to bring up command window
     2. type `Python: Select Interpreter`
-    3. click the use existing option 
+    3. click the use existing or browse to existing
     3. Use browse capability to browse to `notebooks/nbenv/bin/python3`
 6. In the file menu, create a new notebook
     1. click explorer on left sidebar
     2. click notebooks in the file explorer
         - We want to create the notebook in this folder
     3. click the add file button at the top of the explorer to add a new file
-        - name it `foo.ipynb`
+        - name it `Testy.ipynb`
         - click the new file and it should bring up a blank python jupyter notebook
 6. Test notebook setup
     1. Use this code for the first cell
@@ -59,12 +63,15 @@ jupyter/inotebooks
 7. On right hand side, it will say in the menu bar, `Select Kernel`
     1. click the `Select Kernel` button
     2. click `nbenv` which is recommended
-8. Within github codespaces, the python env file is in top level of gitrepo.  
-    1. Put `.env` at top level
-    2. place api key in this file
-    3. add to `.gitignore`
 
 
+
+## Extensions to install
+
+* Google Cloud Code
+* Python
+* jupyter
+* rainbow CSV
 
 
 ## vs code multiple tabs
