@@ -84,3 +84,27 @@ Pandas 2.1.2
 Scikit-Learn 1.3.2
 GPU is available
 ```
+
+
+# vscode on macOS vs vscode on github codespaces
+
+I do not truly understand why sometimes I can get reuse
+of existing environements versus creating new ones.  If
+you are in some weird state where the terminal is on one venv
+and the notebooks are in a different one, deactivate the terminal
+environment.
+
+```
+$ deactivate
+```
+
+Then switch to the venv created by vscode notebooks.
+
+```
+# from the root of the git repo
+$ source ./.venv/bin/activate
+(.venv) $ pip install tensorflow-metal
+```
+
+The above hack is so that github codespaces and gcp flask App Engine
+do not need a separate requirements.txt.

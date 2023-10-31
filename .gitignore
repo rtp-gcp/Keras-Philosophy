@@ -1,6 +1,7 @@
 
 # JFD MODS
 .DS_STORE
+.env/
 src/myenv
 logs/
 
