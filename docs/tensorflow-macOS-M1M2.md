@@ -6,17 +6,17 @@ You can use miniconda to install via a gazillion youtube videos or the offical d
 # My approach
 
 ```
-$ cd ~/progs
-$ mkdir myvenvs
-$ cd myvenvs
+$ cd notebooks/nbenv
+$ mkdir metalenv
+$ cd metalenv
 # this will install to root dir
 #$ python3 -m venv ~/venv-metal
 # this will install to this dir
 $ python3 -m venv venv-metal
-# go back to the progs dir
+# go up a dir
 $ cd ..
 # activate the env
-$ source myvenvs/venv-metal/bin/activate
+$ source nbenv/venv-metal/bin/activate
 # update pip
 # Note at this point, python and python3 are equivalent.
 (venv-metal) $ python -m pip install -U pip
@@ -25,6 +25,22 @@ $ python -m pip install tensorflow
 # install metal tensorflow
 $ python -m pip install tensorflow-metal
 ```
+
+#### Install the base modules
+
+#### Manually
+
+```
+$ python -m pip install pandas
+$ python3 -m pip install scikit-learn
+```
+
+#### Requirements.txt
+
+```
+$ pip install  -r requirements.txt
+```
+
 # Test it
 
 ## From Jeff Heatons Git
@@ -35,17 +51,11 @@ Shamelessly ripped off from
 * [platform dump](https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-march-2023.ipynb)
 
 
-Install the base modules
-
-```
-python -m pip install pandas
-python3 -m pip install scikit-learn
-```
 
 Jeff's mod is out of date so use this one.  Keras no longer has a version.  Its part of tensorflow.
 
 ```
-# What version of Python do you have?
+# python platform status
 import sys
 
 from tensorflow import keras
@@ -65,7 +75,7 @@ print("GPU is", "available" if gpu else "NOT AVAILABLE")
 Make sure it prints GPU is available.
 
 ```
-(venv-metal)  davis@foo ~/progs > python3 testy.py
+(venv-metal)  $ scripts> python3 platform_testy.py
 Tensor Flow Version: 2.14.0
 
 Python 3.9.6 (default, Sep 26 2022, 11:37:49)
