@@ -4,6 +4,8 @@
 .env/
 src/myenv
 logs/
+.venv
+notebooks/nbenv/metalenv/venv-metal/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

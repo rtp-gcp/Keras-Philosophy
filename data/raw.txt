@@ -11,7 +11,6 @@ This is sample commentary line 1
 This is sample commentary line 2
 This is sample commentary line 3
 
-
 PROMPT
 
 This is sample prompt line 1
