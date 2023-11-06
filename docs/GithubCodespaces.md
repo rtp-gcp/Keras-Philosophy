@@ -72,6 +72,7 @@ jupyter/inotebooks
 * Python
 * jupyter
 * rainbow CSV
+* JSON formatter
 
 
 ## vs code multiple tabs
