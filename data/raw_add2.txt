@@ -35,4 +35,4 @@ FIELDA DC   X'3'
 
 PROMPT
 
-Provide an explanation of the Add instruction.
+Provide an explanation of the Add instruction in HLASM.
