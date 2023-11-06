@@ -1,9 +1,15 @@
 datetime
-pathlib
+# later versions of python have this already
+#pathlib
 numpy
 matplotlib
 seaborn
 tensorflow
+
+
+# vscode does not need jupyter
+# instead it uses ipykernel
+ipykernel
 
 scikit-learn
 
