@@ -1,9 +1,11 @@
 
 SAMPLE_CODE
 
-MVI D1(B1),I2
+       MVI   FIELDA,X'C1'
 
 COMMENTARY
+
+MVI D1(B1),I2
 
 OPCODE  I2I2   B1D1  D1D1
 
@@ -12,7 +14,7 @@ constant to a field in storage .  Operand 1 denotes the filed in main
 storage, while the second operand is coded as self-defining term that
 gets assembled by the move.
 
-As an example, consider the following code,
+As an example, consider the following code:
 
        MVI   FIELDA,X'C1'
        ...
@@ -21,4 +23,4 @@ FIELDA DC   X'123456'
 
 PROMPT
 
-Provided an explanation of the MVI instruction.
+Provide an explanation of the MVI instruction.
