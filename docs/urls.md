@@ -28,3 +28,13 @@ You can compile this with IBM's FORTRAN G or H compiler and request the option t
 
 That should get you started ...
 ```
+
+* [s370asm](https://groups.io/g/hercules-s370asm)
+* [bal sieve](http://cs.ecs.baylor.edu/~maurer/SieveE/bal.htm)
+* [bal wiki](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+* [S370BALAsm](https://github.com/SYSPROG-JLS/S370BALAsm)
+* [S370BALEmulator](https://github.com/SYSPROG-JLS/S370BALEmulator)
+
+
+
+
